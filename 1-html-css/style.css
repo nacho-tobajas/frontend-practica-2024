@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(73, 131, 255, 0.952);
+}
+
+.link:hover{
+    color:  #419412;
+    font-size: larger;
+}
+
+@media (width >= 420px) and (width < 768px) {
+    .container {
+
+        width: 70%;
+        border: 3px solid #2132cf;
+    }
+}
+
+@media (width >= 768px) {
+    .container {
+        width: 50%;
+        border: 3px solid #808080;
+    }
+}
+
